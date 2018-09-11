@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>The Land of Giants</title>
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <img id="bricks" src="bricks.jpg">
+        <img id="person1" src="person1.png">
+        <img id="person2" src="person2.png">
+        <img id="person3" src="person3.png">
+        <img id="royalty" src="royalty.png">
+        <img id="running" src="running.png">
+        <img id="background" src="background.jpg">
+      </a-assets>
+
+      <a-sky src="#background"></a-sky>
+      <a-image src="#bricks" position="0 0 -4" rotation="-90 0 0" width="40" height="40"></a-image>
+      <a-image src="#royalty" position="700 3.5 -2" rotation="0 80 0" width="90" height="90"></a-image>
+      <a-image src="#person1" position="1 3.5 9" rotation="0 0 0" width="6" height="6"></a-image>
+      <a-image src="#person2" position="1 3.5 -2" rotation="0 -20 0" width="6" height="6"></a-image>
+      <a-image src="#person3" position="-20 10 -20" rotation="0 75 0" width="12" height="12"></a-image>
+      <a-image src="#running" position="100 5.3 50" rotation="0 60 0" width="12" height="12"></a-image>
+
+    </a-scene>
+  </body>
+</html>
